@@ -34,7 +34,7 @@ h1 {
 }
 
 form {
-  width: fit-content;
+  width: 18em;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@ input {
 }
 
 button {
-  padding: .2rem;
+  padding: .3rem;
   margin: .4em;
 }
 
