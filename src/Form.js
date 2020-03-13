@@ -9,18 +9,20 @@ class Form extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    console.log(this.state)
+    this.setState({
+      people: ''
+    });
   };
 
 
   render() {
     return (
-      <form>
+      <form className="form-search">
         <input
           value={this.state.people}
-          onChange={e => this.setState({ people: e.target.value })} type="text" placeholder="Looking for someone?"
-          name="search-name" />
-        {/* <br /> */}
+          onChange={e => this.setState({ people: e.target.value })}
+          type="text" placeholder="Looking for someone?"
+          name="name" required />
         <button onClick={e => this.onSubmit(e)}>Submit</button>
       </form>
     )
