@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css'
 import Form from './Form';
+import FetchStarWars from './FetchStarWars';
 
 class App extends React.Component {
 
@@ -16,6 +17,7 @@ class App extends React.Component {
         </header>
         <main className='App_main'>
           <Form />
+          <FetchStarWars />
         </main>
       </div>
     )
