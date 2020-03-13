@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* ============// styles //=============== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: rgba(27, 20, 20, 0.925);
+  color: rgba(68, 137, 158, 0.795);
+  padding: 6rem;
+}
+
+h1 {
+  text-align: center;
+  width: fit-content;
+  color: rgba(106, 126, 238, 0.884);
+  margin: auto;
+  padding: 1rem;
+}
+
+form {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: solid rgba(82, 43, 97, 0.911) .1em;
+}
+
+input {
+  padding: .2rem;
+  margin: .4em;
+}
+
+button {
+  padding: .2rem;
+  margin: .4em;
+}
+
+
+
