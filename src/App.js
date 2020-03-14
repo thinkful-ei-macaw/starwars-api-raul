@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css'
 import Form from './Form';
-import FetchStarWars from './FetchStarWars';
+import Swapi from './Swapi';
 
 class App extends React.Component {
 
@@ -16,8 +16,7 @@ class App extends React.Component {
           <h1>StarWars kiosk</h1>
         </header>
         <main className='App_main'>
-          <Form />
-          <FetchStarWars />
+          <Form onSubmit={Swapi} />
         </main>
       </div>
     )

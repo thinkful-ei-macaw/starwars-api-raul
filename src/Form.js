@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import FetchStarWars from './FetchStarWars';
 
 
 class Form extends React.Component {
@@ -10,11 +9,11 @@ class Form extends React.Component {
 
   onSubmit = (e) => {
     e.preventDefault();
-    console.log(onsubmit)
     this.setState({
       people: ''
     });
   };
+
 
 
   render() {
